@@ -1080,7 +1080,7 @@ class SayThanks
 			else if (empty($context['saythanks_thanked'])) {
 				$result = $txt['saythanks_hide_thanked_text'];
 			}
-			unset($context['saythanks_thanked']);
+			// unset($context['saythanks_thanked']);
 		}
 		return $result;
 	}
